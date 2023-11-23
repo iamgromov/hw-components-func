@@ -1,5 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/5l6euq4rwkiafp2f?svg=true)](https://ci.appveyor.com/project/iamgromov/hw-components-func)
-[![GitHub Pages](https://github.com/iamgromov/hw-components-func/actions/workflows/pages/pages-build-deployment/badge.svg)](https://iamgromov.github.io/hw-components-func)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)](https://iamgromov.github.io/hw-components-func)
 
 # React + Vite Homework
 
