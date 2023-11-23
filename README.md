@@ -3,8 +3,8 @@
 
 # React + Vite Homework
 
-Необходимо создать React-компонент `ShopItemClass` (class-based компонент), с помощью которого мы могли бы реализовывать представление информации о товарах из нашего каталога на сайте в таком виде (компонент обведён пунктирной линией):
-![Внешний вид страницы после реализации компонента](https://github.com/netology-code/ra16-homeworks/raw/ra-51/components/store-class/assets/preview.png)
+Необходимо создать React-компонент `ShopItemFunc` (функциональный компонент), с помощью которого мы могли бы реализовывать представление информации о товарах из нашего каталога на сайте в таком виде (компонент обведён пунктирной линией):
+![Внешний вид страницы после реализации компонента](https://github.com/netology-code/ra16-homeworks/raw/ra-51/components/store-func/res/preview.png)
 
 ## Пример использования
 ```jsx
@@ -26,7 +26,7 @@ return (
       <div className='highlight-overlay'></div>
     </div>
     <div className="window">
-      <ShopItemClass item={item} />
+      <ShopItemFunc item={item} />
     </div>
   </div>
 )
