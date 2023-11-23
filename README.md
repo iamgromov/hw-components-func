@@ -1,9 +1,10 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/5l6euq4rwkiafp2f?svg=true)](https://ci.appveyor.com/project/iamgromov/hw-components-func) [GitHub Pages](https://iamgromov.github.io/hw-components-func/)
+[![Build status](https://ci.appveyor.com/api/projects/status/5l6euq4rwkiafp2f?svg=true)](https://ci.appveyor.com/project/iamgromov/hw-components-func)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-GO-green.svg)](https://iamgromov.github.io/hw-components-func)
 
 # React + Vite Homework
 
-Необходимо создать React-компонент `ShopItemFunc` (функциональный компонент), с помощью которого мы могли бы реализовывать представление информации о товарах из нашего каталога на сайте в таком виде (компонент обведён пунктирной линией):
-![Внешний вид страницы после реализации компонента](https://github.com/netology-code/ra16-homeworks/raw/ra-51/components/store-func/res/preview.png)
+Необходимо создать React-компонент `ShopItemClass` (class-based компонент), с помощью которого мы могли бы реализовывать представление информации о товарах из нашего каталога на сайте в таком виде (компонент обведён пунктирной линией):
+![Внешний вид страницы после реализации компонента](https://github.com/netology-code/ra16-homeworks/raw/ra-51/components/store-class/assets/preview.png)
 
 ## Пример использования
 ```jsx
@@ -25,7 +26,7 @@ return (
       <div className='highlight-overlay'></div>
     </div>
     <div className="window">
-      <ShopItemFunc item={item} />
+      <ShopItemClass item={item} />
     </div>
   </div>
 )
